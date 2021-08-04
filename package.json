@@ -1,0 +1,17 @@
+{
+  "name": "zbot",
+  "version": "1.0.0",
+  "description": "Cuman bot simple",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "moment": "^2.29.1",
+    "quick.db": "^7.1.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mizuki Chan, Zenku Chan, Damzz",
+  "license": "ISC"
+}

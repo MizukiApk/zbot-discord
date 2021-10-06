@@ -1,13 +1,9 @@
-Halo temen temen ini adalah bot discord pertama buatan saya dan ini juga pertama kali saya pakai github. Bye
-
 Cara install bot
+*Pastikan anda sudah download Git dan Node.js
 
-1.Install node.js
+Buka cmd atau terminal dan lakukan langkah di bawah
 
-2.Buka cmd dan ketik cd zbot-discord-main
-
+1.git clone https://github.com/MizukiApk/zbot-discord.git
+2.cd zbot-discord
 3.npm install
-
-Note: Ada beberapa kode yang perlu kalian isi sendiri
-
-4.Jika selesai ketika node index.js untuk menjalankan bot
+4.Setting config.json sesuai yang kalian inginkan

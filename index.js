@@ -1,6 +1,11 @@
 //Basic bot
 const Discord = require('discord.js')
-const client = new Discord.Client()
+const client = new Discord.Client({
+	intents: [
+		Discord.Intents.FLAGS.GUILDS,
+		Discord.Intents.FLAGS.GUILD_MESSAGES
+	]
+})
 const config = require('./config.json')
 const command = require('./command')
 const db = require('quick.db')
